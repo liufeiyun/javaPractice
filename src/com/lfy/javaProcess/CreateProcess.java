@@ -1,4 +1,4 @@
-package com.lfy;
+package com.lfy.javaProcess;
 
 /**
  * java创建进程
@@ -11,7 +11,7 @@ public class CreateProcess {
 
 		//1、Create Process by Runtime's exec() mothod
 		CreateProcess temp=new CreateProcess();
-//		temp.useRuntime();
+		temp.useRuntime();
 		//2、Create Process by ProcessBuilder
 		temp.useProcessBuilder();
 	}
